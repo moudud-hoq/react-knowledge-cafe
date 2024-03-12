@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { CiBookmark } from "react-icons/ci";
 import { CiRead } from "react-icons/ci";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const { cover, id, author, authorImg, posted_date, reading_time } = blog;
   return (
     <div className="border p-4 m-4 rounded-xl bg-slate-200">
@@ -18,7 +18,7 @@ const Blog = ({ blog }) => {
         <p className="text-2xl">{reading_time}</p>
         <hr />
         <div className="flex justify-between p-6 border-2 border-rose-950 rounded-xl">
-          <button >
+          <button onClick={handleAddToBookmark}>
             <CiBookmark />
           </button>
           <hr />
