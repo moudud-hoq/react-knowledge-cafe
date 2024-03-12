@@ -3,7 +3,7 @@ const Blog = ({ blog }) => {
   console.log(blog);
   return (
     <div>
-      <p>A</p>
+      <p className="text-2xl">{blog.title}</p>
     </div>
   );
 };
