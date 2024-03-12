@@ -1,0 +1,52 @@
+[
+  {
+    "id": "001",
+    "cover": "https://ibb.co/NCFbjWL",
+    "title": "The Enigmatic Odyssey",
+    "author": "Evelyn T. Harlow",
+    "author-img": "https://example.com/authorevelyn.jpg",
+    "posted_date": "2024-03-12",
+    "reading_time": 25,
+    "hashtag": ["fiction", "adventure", "mystery"]
+  },
+  {
+    "id": "002",
+    "cover": "https://ibb.co/Gsq40BN",
+    "title": "Echoes of Eternity",
+    "author": "Benjamin A. Jenkins",
+    "author-img": "https://example.com/authorbenjamin.jpg",
+    "posted_date": "2024-03-11",
+    "reading_time": 30,
+    "hashtag": ["fantasy", "magic", "intrigue"]
+  },
+  {
+    "id": "003",
+    "cover": "https://ibb.co/L8vFgns",
+    "title": "Beyond the Veil",
+    "author": "Serena R. Montgomery",
+    "author-img": "https://example.com/authorserena.jpg",
+    "posted_date": "2024-03-10",
+    "reading_time": 20,
+    "hashtag": ["romance", "paranormal", "love"]
+  },
+  {
+    "id": "004",
+    "cover": "https://ibb.co/8jHMBYJ",
+    "title": "The Lost Symphony",
+    "author": "Jacob K. Roberts",
+    "author-img": "https://example.com/authorjacob.jpg",
+    "posted_date": "2024-03-09",
+    "reading_time": 3,
+    "hashtag": ["music", "mystery", "history"]
+  },
+  {
+    "id": "005",
+    "cover": "https://ibb.co/8jHMBYJ",
+    "title": "Whispers in the Wind",
+    "author": "Olivia M. Stevens",
+    "author-img": "https://example.com/authorolivia.jpg",
+    "posted_date": "2024-03-08",
+    "reading_time": 28,
+    "hashtag": ["poetry", "inspiration", "nature"]
+  }
+]
