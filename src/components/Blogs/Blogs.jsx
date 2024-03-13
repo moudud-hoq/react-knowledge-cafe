@@ -16,8 +16,10 @@ const Blogs = ({ handleAddToBookmark }) => {
   }, []);
 
   return (
-    <div className="md:w-2/3">
-      <h1>Blogs: {blogs.length}</h1>
+    <div className="md:w-2/3 bg-blue-50 p-4 mr-2">
+      <h1 className="text-center ">
+        <strong className="shadow-2xl">Blogs:</strong> {blogs.length}
+      </h1>
       {blogs.map((blog) => (
         <Blog
           key={blog.id}
@@ -25,7 +27,6 @@ const Blogs = ({ handleAddToBookmark }) => {
           handleAddToBookmark={handleAddToBookmark}
         ></Blog>
       ))}
-      ;
     </div>
   );
 };
